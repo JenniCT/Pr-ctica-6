@@ -1,0 +1,31 @@
+body{
+    background-color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+td{
+    vertical-align: text-top;
+
+}
+ul{
+    list-style: none;
+
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+div{
+    color: white;
+    height: 80%;
+    width: 95%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border: 1px solid aquamarine;
+    background-color: violet;
+    border-radius: 15px;
+    border: solid 2px rosybrown;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 4px palevioletred;
+}
