@@ -1,7 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
-    background-color:blueviolet;
+    background-color:#29353C;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 15px;
 }
 td{
     vertical-align: text-top;
@@ -12,20 +16,56 @@ ul{
 
 
 }
+ul li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px; /*tamaño de letra*/
+    height: 60px; /*altura de cada opción de la lista*/
+    
+}
+ul li a{
+    
+    height: 60px; /*Altura*/
+    background-color: #44576D; /*color de fondo*/
+    display: block;
+    border-left: 10px solid #768A96;
+    border-right: 5px solid #AAC7D8;
+    padding-left: 15px; /*separación izquierda del texto */
+    text-decoration: none;
+    color: #bfe1f1;
+
+}
+ul li a:hover{
+    
+    padding-top: 10px;
+    margin-left: 10px; /*separación del lado izquierdo*/
+    color: #AAC7D8; /*color de letra*/
+    background-color: #768A96; /*color de fondo*/
+    box-shadow: 10px 10px 20px #000; /* sobra */
+    transform: rotate(4deg); /*Movimiento de rotación*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+
+}
+td{
+    vertical-align: top;
+}
 a {
     text-decoration: none;
-    color: aliceblue;
+    color:  #AAC7D8;
 }
 div{
-    color: white;
+    color:  #AAC7D8;
     height: 80%;
     width: 95%;
     padding: 10px 10px 10px 10px;
     margin: 10px;
-    border: 1px solid aquamarine;
-    background-color: violet;
+    border: 5px solid #dfebf6;
+    background-color: #44576D;
     border-radius: 15px;
-    border: solid 2px rosybrown;
+    border: solid 2px #dfebf6;
     border-radius: 15px 0px 15px 0px;
-    box-shadow: 2px 2px 4px palevioletred;
+    box-shadow: 2px 2px 4px #768A96;
+}
+tr td p{
+    color:  #AAC7D8;
 }
